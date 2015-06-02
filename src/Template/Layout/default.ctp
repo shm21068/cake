@@ -37,8 +37,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body>
     <header>
         <div class="header-title">
-            <!-- <span><?php //$this&#45;>fetch('title') ?></span> -->
-            <span><?= $this->Html->link('Home', '/') ?></span>
+          <!-- <span><?php //$this&#45;>fetch('title') ?></span> -->
+          <a href="http://kintai.intra.ebisol.co.jp/kintai/index.php" style="color:white;">#Kintai</a>
+          <a href="/" style="color:white;">#Home</a>
         </div>
         <div class="header-help">
             <span><a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a></span>

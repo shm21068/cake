@@ -16,8 +16,13 @@ li {
 
 <h1>Blog </h1>
 
-<p><?php echo $this->Html->link('追加', ['action'=> 'add']); ?></p>
-  <!-- Here is where we iterate through our $articles query object, printing out article info -->
+<div class='header-help' style='float:none; margin-top:auto;'>
+  <span>
+    <?php echo $this->Html->link('追加', ['action' => 'add']) ?>
+  </span>
+</div>
+
+<br />
 
   <?php foreach ($posts as $post): ?>
 <ul>
